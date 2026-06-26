@@ -1,4 +1,4 @@
-# MyArchive
+# Cloud File Storage - Skydock
 
 Upload files. Share them. Replace them without breaking links.
 
@@ -6,7 +6,7 @@ Upload files. Share them. Replace them without breaking links.
 
 ## Overview
 
-MyArchive is a personal cloud storage app. Sign in with Google, upload your files, and get a shareable link for each one. If you update a file later, the link stays the same.
+Skydock is a personal cloud storage app. Sign in with Google, upload your files, and get a shareable link for each one. If you update a file later, the link stays the same.
 
 ---
 
@@ -36,7 +36,7 @@ Anyone with this link can view and download the file without signing in.
 
 ## Replace Without Breaking Links
 
-This is the key feature. If you share your resume and then update it, you normally have to send a new link. With MyArchive you do not.
+This is the key feature. If you share your resume and then update it, you normally have to send a new link. With skydock you do not.
 
 When you replace a file:
 
@@ -57,7 +57,7 @@ Login uses Google OAuth. On first login your account is created automatically. A
 
 ## Storage
 
-Files are stored in Supabase Storage. MongoDB only stores metadata — file name, size, type, and the share ID. The actual file never touches the database.
+Files are stored in Supabase Storage. MongoDB only stores metadata - file name, size, type, and the share ID. The actual file never touches the database.
 
 ---
 
